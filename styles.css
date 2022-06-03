@@ -1,0 +1,77 @@
+body {
+  background-color: #393e46;
+}
+
+/* main div  */
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+/* all the dices */
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+img {
+  width: 80%;
+}
+/* header text */
+.heading {
+  margin: 30px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ecca3;
+}
+/* start the game button */
+.start_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+.start_game {
+  background-color: #9c060c;
+
+  border: none;
+  width: 150px;
+  height: 50px;
+  margin: 20px;
+  border-radius: 27px;
+  cursor: pointer;
+  color: white;
+  font-size: 1rem;
+}
+.start_game:hover {
+  background-color: rgb(228, 3, 3);
+}
+
+p {
+  font-size: 2rem;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
+}
+
+/* footer */
+footer {
+  margin-top: 5%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+  font-size: 4rem;
+}
+
+@media screen and (min-width: 280px) and (max-width: 1200px) {
+  .container {
+    width: 100%;
+    margin-top: 50%;
+  }
+  .start_game {
+    width: 15rem;
+    height: 5rem;
+    font-size: 3.5rem;
+  }
+}
